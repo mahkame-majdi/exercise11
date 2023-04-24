@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <style>
+            *,
+            *::after,
+            *::before {
+                box-sizing: border-box;
+            }
+            ul, li {
+                list-style: none;
+            }
+            .container {
+                width: 1140px;
+                margin: 0 auto;
+            }
+            .testimonials-list ul {
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .testimonials-list ul li {
+                width: 33.33%;
+                padding: 10px;
+            }
+            .testimonials-list ul li .image img {
+                width: 70px;
+                height:auto;
+                border-radius: 50%;
+            }
+            .testimonials-list ul li .text p:before {
+                content: "\201C";
+            }
+
+            .testimonials-list ul li .text p:after{
+                content: "\201D";
+            }
+        </style>
+    </head>
+    <body>
+        <div class="testimonials-list">
+            <div class="container">
+                <ul>
+                    <li>
+                        <div class="image">
+                            <img src="user.jpg.webp" />
+                        </div>
+                        <div class="text">
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                        </div>
+                        <div class="author">
+                            <p>Clare Gupta</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="image">
+                            <img src="user2.jpg.webp" />
+                        </div>
+                        <div class="text">
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                        </div>
+                        <div class="author">
+                            <p>Rogie Slater</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="image">
+                            <img src="user3.jpg.webp" />
+                        </div>
+                        <div class="text">
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                        </div>
+                        <div class="author">
+                            <p>John Doe</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+    </body>
+</html>
